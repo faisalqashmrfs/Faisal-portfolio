@@ -290,7 +290,11 @@ header
 {
    .About-me 
    {
-      padding-top: 550px;
+      padding-top: 400px;
+   }
+   .About-me .container p
+   {
+      font-size: 16px;
    }
 }
 
