@@ -1,0 +1,132 @@
+.contact
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+.face
+{
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background: gold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 00px;
+}
+.face::before
+{
+    content: "";
+    position: absolute;
+    top: 540px;
+    width: 450px;
+    height: 210px;
+    background-color: #b57700;
+    border-bottom-left-radius: 210px;
+    border-bottom-right-radius: 210px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.face:hover::before
+{
+    top: 550px;
+    width: 450px;
+    height: 60px;
+    background-color: #b57700;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.eyes
+{
+    position: relative;
+    top: -120px;
+    display: flex;
+}
+.eyes .eye
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: block;
+    background: #fff;
+    margin: 0 45px;
+    border-radius: 50%;
+}
+.eyes .eye::before
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 75px;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    background: #333;
+    border-radius: 50%;
+}
+
+.contact form{
+    width: 700px !important;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact form h2{
+    color: white;
+    font-size: 28px;
+    margin: 20px 0;
+    transition: .5s;
+}
+
+.contact form h2:hover{
+        color: gold;
+}
+
+.contact form ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    width: 300px;
+}
+.contact form ul li a{
+    color: white;
+    transition: .5s
+}
+.contact form ul li:hover a{
+    color: gold;
+    font-size: 44px;
+}
+@media(max-width:1400px)
+{
+    .contact
+    {
+        justify-content: center;
+    }
+    .face
+    {
+        right: -400px;
+    }
+}
+@media(max-width:1100px)
+{
+    .contact
+    {
+        justify-content: center;
+    }
+    .face
+    {
+        display: none;
+    }
+}

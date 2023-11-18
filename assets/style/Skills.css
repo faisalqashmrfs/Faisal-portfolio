@@ -1,0 +1,411 @@
+.Skills
+{
+    width: 99vw;
+    height: max-content;
+    background: radial-gradient(#222,black);
+    height: 100vh;
+}
+.Skills .container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 80px 70px 0 70px;
+}
+
+/* ////////////////////////////////////////card1 */
+
+.Skills .container .card1
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid orange;
+    box-shadow: 0 0 10px orange ;
+    padding: 50px;
+    box-sizing: content-box;
+}
+.Skills .container .card1 .rating1
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Skills .container .card1 .rating1 .block
+{
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animatedCircel 0.1s linear forwards ;
+}
+.Skills .container .card1 .rating1 .block:nth-child(-n+95)
+{
+    background: orange;
+    box-shadow: 0 0 25px orange;
+}
+
+@keyframes animatedCircel
+{
+    to{
+        opacity: 1;
+    }
+}
+
+.Skills .container .card1 .rating1 h2
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+}
+.Skills .container .card1 .rating1 h2 span
+{ 
+    font-size: 2.5em;
+    font-weight: 900 ;
+}
+.Skills .container .card1 .rating1 h2 sup 
+{
+    font-size: 1em;
+    font-weight: 300;
+}
+/* ////////////////////////////////////////card2 */
+
+.Skills .container .card2
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    box-sizing: content-box;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px blue ;
+}
+.Skills .container .card2 .rating2
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Skills .container .card2 .rating2 .block2
+{
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animatedCircel 0.1s linear forwards ;
+}
+.Skills .container .card2 .rating2 .block2:nth-child(-n+86)
+{
+    background: blue;
+    box-shadow: 0 0 25px blue;
+}
+
+@keyframes animatedCircel
+{
+    to{
+        opacity: 1;
+    }
+}
+
+.Skills .container .card2 .rating2 h2
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+}
+.Skills .container .card2 .rating2 h2 span
+{ 
+    font-size: 2.5em;
+    font-weight: 900 ;
+}
+.Skills .container .card2 .rating2 h2 sup 
+{
+    font-size: 1em;
+    font-weight: 300;
+}
+/* ////////////////////////////////////////card3 */
+.Skills .container .card3
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    box-sizing: content-box;
+    border: 1px solid yellow;
+    box-shadow: 0 0 10px yellow ;
+}
+.Skills .container .card3 .rating3
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Skills .container .card3 .rating3 .block3
+{
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animatedCircel 0.1s linear forwards ;
+}
+.Skills .container .card3 .rating3 .block3:nth-child(-n+81)
+{
+    background: yellow;
+    box-shadow: 0 0 25px yellow;
+}
+
+@keyframes animatedCircel
+{
+    to{
+        opacity: 1;
+    }
+}
+
+.Skills .container .card3 .rating3 h2
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+}
+.Skills .container .card3 .rating3 h2 span
+{ 
+    font-size: 2.5em;
+    font-weight: 900 ;
+}
+.Skills .container .card3 .rating3 h2 sup 
+{
+    font-size: 1em;
+    font-weight: 300;
+}
+/* ////////////////////////////////////////card4 */
+.Skills .container .card4
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    box-sizing: content-box;
+    border: 1px solid green;
+    box-shadow: 0 0 10px green ;
+}
+.Skills .container .card4 .rating4
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Skills .container .card4 .rating4 .block4
+{
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animatedCircel 0.1s linear forwards ;
+}
+.Skills .container .card4 .rating4 .block4:nth-child(-n+76)
+{
+    background: green;
+    box-shadow: 0 0 25px green;
+}
+
+@keyframes animatedCircel
+{
+    to{
+        opacity: 1;
+    }
+}
+
+.Skills .container .card4 .rating4 h2
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+}
+.Skills .container .card4 .rating4 h2 span
+{ 
+    font-size: 2.5em;
+    font-weight: 900 ;
+}
+.Skills .container .card4 .rating4 h2 sup 
+{
+    font-size: 1em;
+    font-weight: 300;
+}
+/* ////////////////////////////////////////card5 */
+.Skills .container .card5
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    box-sizing: content-box;
+    border: 1px solid rgb(0, 66, 0);
+    box-shadow: 0 0 10px rgb(0, 66, 0) ;
+}
+.Skills .container .card5 .rating5
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Skills .container .card5 .rating5 .block5
+{
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animatedCircel 0.1s linear forwards ;
+}
+.Skills .container .card5 .rating5 .block5:nth-child(-n+76)
+{
+    background: rgb(0, 66, 0);
+    box-shadow: 0 0 50px green;
+}
+
+@keyframes animatedCircel
+{
+    to{
+        opacity: 1;
+    }
+}
+
+.Skills .container .card5 .rating5 h2
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+}
+.Skills .container .card5 .rating5 h2 span
+{ 
+    font-size: 2.5em;
+    font-weight: 900 ;
+}
+.Skills .container .card5 .rating5 h2 sup 
+{
+    font-size: 1em;
+    font-weight: 300;
+}
+/* ////////////////////////////////////////card6 */
+.Skills .container .card6
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    box-sizing: content-box;
+    border: 1px solid purple;
+    box-shadow: 0 0 10px purple ;
+}
+.Skills .container .card6 .rating6
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Skills .container .card6 .rating6 .block6
+{
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animatedCircel 0.1s linear forwards ;
+}
+.Skills .container .card6 .rating6 .block6:nth-child(-n+76)
+{
+    background: purple;
+    box-shadow: 0 0 25px purple;
+}
+
+@keyframes animatedCircel
+{
+    to{
+        opacity: 1;
+    }
+}
+
+.Skills .container .card6 .rating6 h2
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+}
+.Skills .container .card6 .rating6 h2 span
+{ 
+    font-size: 2.5em;
+    font-weight: 900 ;
+}
+.Skills .container .card6 .rating6 h2 sup 
+{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+@media(max-width:1100px)
+{
+    .Skills
+    {
+        height: max-content;
+    }
+    .Skills .container
+    {
+        gap: 100px;
+        padding: 50px 50px 0 50px;
+    }
+}
