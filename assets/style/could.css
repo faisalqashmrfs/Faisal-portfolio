@@ -5,6 +5,7 @@
    justify-content: center;
    margin-top: 200px;
    margin-right: 100px;
+
 }
 .Hero .img-hero .fq-could
 {
@@ -15,7 +16,6 @@
    border-radius: 100px;
    filter: drop-shadow(8px 8px 0 #0005);
    animation: animateCould 2s steps(1) infinite;
-
 }
 
 @keyframes animateCould
@@ -94,6 +94,7 @@
  @media(max-width:555px){
     .Hero .img-hero{
         width: 350px;
+        height: 100px !important;
     }
  }
 
