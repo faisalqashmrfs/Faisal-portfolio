@@ -89,7 +89,11 @@
         height: 500px !important;
     }
  }
-
+ @media(max-width:555px){
+    .Hero .img-hero{
+        width: 350px;
+    }
+ }
 
 
 

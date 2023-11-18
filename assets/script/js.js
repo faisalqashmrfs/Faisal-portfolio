@@ -14,7 +14,7 @@ item.addEventListener('click', activlink))
 function rain() {
     let could = document.querySelector('.fq-could');
     let e = document.createElement('div');
-    let left = Math.floor(Math.random() * 410);
+    let left = Math.floor(Math.random() * 340);
     let width = Math.floor(Math.random() * 5);
     let height = Math.floor(Math.random() * 50);
     let duration = Math.floor(Math.random() * 0.5);

@@ -1,6 +1,6 @@
 .projects
 {
-    width: 99vw;
+    width: 97vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -74,8 +74,8 @@
     .projects
     {
         flex-direction: column;
+        width: 96vw;
         gap: 0px;
-        width: 99vw;
     }
     .projects .container
     {
