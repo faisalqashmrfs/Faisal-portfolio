@@ -4,6 +4,7 @@
     height: max-content;
     background: radial-gradient(#222,black);
     height: 100vh;
+    padding-top: 150px;
 }
 .Skills .container
 {
